@@ -18,10 +18,6 @@ The goal is to create a secure file-sharing system between two types of users: O
     Client Users can sign up for the system, and the system should return an encrypted URL.
     This URL may be used for further verification or to complete the registration process.
 
-- #### Email Verify:
-    After signing up, a verification email with otp will be sent to the user's registered email address.
-    The user needs to verify their email by sharing otp on the link.
-
 - #### Login:
      Client Users will be able to log in securely using their credentials.
 
@@ -49,7 +45,7 @@ The goal is to create a secure file-sharing system between two types of users: O
 
 * Clone Repository
 ```commandline
-
+git clone git@github.com:varunbainsla/Secure_File_sharing_System.git
 ```
 
 ### Setup
